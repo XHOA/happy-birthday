@@ -1,0 +1,53 @@
+:root
+{
+    --primary-color:  linear-gradient( to right,#1289C0, #20b2aa);
+    --text-color: #1289c0;
+    --button-color: #20b2aa
+}
+body
+{
+    display: flex;
+    width:  100vw;
+    height: 100vh;
+    background: url(./img.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lora;
+}
+
+.receive{
+    position: absolute;
+    background-color:lightseagreen;
+    top: 50%;
+    left: 35%;
+    width: 600px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+p{
+    text-align: center;
+    font-size: 50px;
+    color:black;
+}
+
+button{
+    position: absolute;
+    background-color:palevioletred; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+}
+button:hover{
+    background-color: magenta;
+    cursor: pointer;
+}
